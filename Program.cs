@@ -110,26 +110,29 @@ namespace Backpack
         {
             Backpack myBackPack = new Backpack(); //creates a backpack object
 
-            //Backpack weight before adding any items
-            Console.WriteLine("Back pack weight before adding any items");
-            Console.WriteLine(myBackPack.GetTotalWeight() + "\n");
+            //Backpack total weight before adding any item weight
+            Console.WriteLine("Backpack total weight before adding any item weight");
+            Console.WriteLine(myBackPack.GetTotalWeight() + "\n\n");
 
+                        
             //Tests that middle pocket is true
-            Console.WriteLine("Tests that the main pocket is true by adding 8");
+            Console.WriteLine("Tests that the main pocket is true by adding 8 item weight");
             Console.WriteLine(myBackPack.InsertItemsInMainPocket(8) + "\n");
 
             //Tests that right pocket is true
-            Console.WriteLine("Tests that the right pocket is true by adding 3");
+            Console.WriteLine("Tests that the right pocket is true by adding 3 item weight");
             Console.WriteLine(myBackPack.InsertItemsInRightPocket(3) + "\n");
 
             //Tests that left pocket is true
-            Console.WriteLine("Tests that the left pocket is true by adding 3");
-            Console.WriteLine(myBackPack.InsertItemsInLeftPocket(3) + "\n");
+            Console.WriteLine("Tests that the left pocket is true by adding 3 item weight");
+            Console.WriteLine(myBackPack.InsertItemsInLeftPocket(3) + "\n\n");
 
-            //Backpack weight after adding to the bag
-            Console.WriteLine("Backpack total weight after adding the items");
+
+            //Backpack total weight after adding the item weight
+            Console.WriteLine("Backpack total weight after adding the item weight");
             Console.WriteLine(myBackPack.GetTotalWeight() + "\n\n");
 
+            
             //Tests that middle pocket is false by going over capacity by 10
             Console.WriteLine("Tests that the main pocket is false by going over capacity by 10");
             Console.WriteLine(myBackPack.InsertItemsInMainPocket(12) + "\n");
@@ -140,23 +143,42 @@ namespace Backpack
 
             //Tests that left pocket is false by going over capacity
             Console.WriteLine("Tests that the left pocket is false by going over capacity by 5");
-            Console.WriteLine(myBackPack.InsertItemsInLeftPocket(7) + "\n");
+            Console.WriteLine(myBackPack.InsertItemsInLeftPocket(7) + "\n\n");
 
-            //Backpack weight after going over the capacity weight of the backpack
-            Console.WriteLine("Backpack weight after going over the capacity weight of the backpack");
+
+            //Backpack total weight after going over the capacity weight of the backpack
+            Console.WriteLine("Backpack total weight after going over the capacity weight of the backpack");
             Console.WriteLine(myBackPack.GetTotalWeight() + "\n\n");
 
-            //Tests removing the weight from the backpack make the output true
+            
+            //Tests removing the item weight from the backpack is true
             Console.WriteLine("Tests removing the weight from the backpack true\n");
             Console.WriteLine("Removes 6 from the main pocket");
             Console.WriteLine(myBackPack.RemoveItemsFromMainPocket(6));
             Console.WriteLine("Removes 2 from the right pocket");
             Console.WriteLine(myBackPack.RemoveItemsFromRightPocket(2));
             Console.WriteLine("Removes 2 from the left pocket");
-            Console.WriteLine(myBackPack.RemoveItemsFromLeftPocket(2));
+            Console.WriteLine(myBackPack.RemoveItemsFromLeftPocket(2) + "\n\n");
 
-            //Tests to see if you can remove more weight than is in the bag
 
+            //Backpack total weight after removing item weight from the backpack
+            Console.WriteLine("Backpack total weight after removing item weight from the backpack");
+            Console.WriteLine(myBackPack.GetTotalWeight() + "\n\n");
+
+            
+            //Tests removing too much item weight from the backpack is false
+            Console.WriteLine("Tests removing too much item weight from the backpack is false\n");
+            Console.WriteLine("Removes 10 from the main pocket");
+            Console.WriteLine(myBackPack.RemoveItemsFromMainPocket(10));
+            Console.WriteLine("Removes 5 from the right pocket");
+            Console.WriteLine(myBackPack.RemoveItemsFromRightPocket(5));
+            Console.WriteLine("Removes 5 from the left pocket");
+            Console.WriteLine(myBackPack.RemoveItemsFromLeftPocket(5) + "\n\n");
+
+
+            //Backpack weight after all operations
+            Console.WriteLine("Backpack total weight after all operations");
+            Console.WriteLine(myBackPack.GetTotalWeight() + "\n\n");
 
         }
     }
