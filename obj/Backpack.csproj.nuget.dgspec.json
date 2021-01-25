@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hwhan\\source\\repos\\Backpack\\Backpack\\Backpack.csproj": {}
+    "C:\\Users\\hwhan\\OneDrive\\Desktop\\repos\\Backpack\\Backpack\\Backpack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hwhan\\source\\repos\\Backpack\\Backpack\\Backpack.csproj": {
+    "C:\\Users\\hwhan\\OneDrive\\Desktop\\repos\\Backpack\\Backpack\\Backpack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hwhan\\source\\repos\\Backpack\\Backpack\\Backpack.csproj",
+        "projectUniqueName": "C:\\Users\\hwhan\\OneDrive\\Desktop\\repos\\Backpack\\Backpack\\Backpack.csproj",
         "projectName": "Backpack",
-        "projectPath": "C:\\Users\\hwhan\\source\\repos\\Backpack\\Backpack\\Backpack.csproj",
+        "projectPath": "C:\\Users\\hwhan\\OneDrive\\Desktop\\repos\\Backpack\\Backpack\\Backpack.csproj",
         "packagesPath": "C:\\Users\\hwhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hwhan\\source\\repos\\Backpack\\Backpack\\obj\\",
+        "outputPath": "C:\\Users\\hwhan\\OneDrive\\Desktop\\repos\\Backpack\\Backpack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hwhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
