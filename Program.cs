@@ -153,11 +153,11 @@ namespace Backpack
             
             //Tests removing the item weight from the backpack is true
             Console.WriteLine("Tests removing the weight from the backpack true\n");
-            Console.WriteLine("Removes 6 from the main pocket");
+            Console.WriteLine("Removes 6 item weight from the main pocket");
             Console.WriteLine(myBackPack.RemoveItemsFromMainPocket(6));
-            Console.WriteLine("Removes 2 from the right pocket");
+            Console.WriteLine("Removes 2 item weight from the right pocket");
             Console.WriteLine(myBackPack.RemoveItemsFromRightPocket(2));
-            Console.WriteLine("Removes 2 from the left pocket");
+            Console.WriteLine("Removes 2 item weight from the left pocket");
             Console.WriteLine(myBackPack.RemoveItemsFromLeftPocket(2) + "\n\n");
 
 
@@ -168,11 +168,11 @@ namespace Backpack
             
             //Tests removing too much item weight from the backpack is false
             Console.WriteLine("Tests removing too much item weight from the backpack is false\n");
-            Console.WriteLine("Removes 10 from the main pocket");
+            Console.WriteLine("Removes 10 item weight from the main pocket");
             Console.WriteLine(myBackPack.RemoveItemsFromMainPocket(10));
-            Console.WriteLine("Removes 5 from the right pocket");
+            Console.WriteLine("Removes 5 item weight from the right pocket");
             Console.WriteLine(myBackPack.RemoveItemsFromRightPocket(5));
-            Console.WriteLine("Removes 5 from the left pocket");
+            Console.WriteLine("Removes 5 item weigh from the left pocket");
             Console.WriteLine(myBackPack.RemoveItemsFromLeftPocket(5) + "\n\n");
 
 
